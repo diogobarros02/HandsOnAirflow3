@@ -11,7 +11,7 @@ def user_processing():
         task_id="create_table",
         conn_id="postgres",
         sql="""
-        CREATE TABLE IF NOT EXISTS users (
+        CREATE TABLE IF NOT EXISTS users   (
             id  INT PRIMARY KEY,
             firstname VARCHAR(255),
             lastname VARCHAR(255),
